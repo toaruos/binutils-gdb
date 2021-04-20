@@ -258,6 +258,7 @@ case ${generic_target} in
   i386-*-*nt*)				fmt=coff em=pe ;;
   i386-*-rdos*)				fmt=elf ;;
   i386-*-darwin*)			fmt=macho ;;
+  i386-*-toaru*)			fmt=elf ;;
 
   ia16-*-elf*)				fmt=elf ;;
 
