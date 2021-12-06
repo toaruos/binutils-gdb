@@ -1,3 +1,5 @@
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Ftoaruos%2Fbinutils-gdb.svg?type=shield)](https://app.fossa.com/projects/git%2Bgithub.com%2Ftoaruos%2Fbinutils-gdb?ref=badge_shield)
+
 		   README for GNU development tools
 
 This directory contains various GNU compilers, assemblers, linkers, 
@@ -45,3 +47,7 @@ GNU General Public License terms under which you can copy the files.
 
 REPORTING BUGS: Again, see gdb/README, binutils/README, etc., for info
 on where and how to report problems.
+
+
+## License
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Ftoaruos%2Fbinutils-gdb.svg?type=large)](https://app.fossa.com/projects/git%2Bgithub.com%2Ftoaruos%2Fbinutils-gdb?ref=badge_large)
