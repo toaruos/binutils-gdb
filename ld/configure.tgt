@@ -59,7 +59,7 @@ aarch64-*-freebsd*)	targ_emul=aarch64fbsd
 aarch64-*-fuchsia*)	targ_emul=aarch64elf
 			targ_extra_emuls="aarch64elfb armelf armelfb"
 			;;
-aarch64-*-toaru*)	targ_emul=aarch64elf
+aarch64-*-toaru*)	targ_emul=elf64toaru_aarch64
 			targ_extra_emuls="aarch64elfb armelf armelfb"
 			;;
 aarch64_be-*-linux-gnu_ilp32)
