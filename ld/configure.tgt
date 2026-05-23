@@ -95,6 +95,9 @@ aarch64-*-freebsd*)	targ_emul=aarch64fbsd
 aarch64-*-fuchsia*)	targ_emul=aarch64elf
 			targ_extra_emuls="aarch64elfb armelf armelfb"
 			;;
+aarch64-*-toaru*)	targ_emul=aarch64elf
+			targ_extra_emuls="aarch64elfb armelf armelfb"
+			;;
 aarch64_be-*-linux-gnu_ilp32)
 			targ_emul=aarch64linux32b
 			targ_extra_libpath="aarch64linuxb aarch64linux aarch64linux32 armelfb_linux_eabi armelf_linux_eabi"
@@ -948,6 +951,8 @@ vax-*-linux-*)		targ_emul=elf32vax
 visium-*-elf)		targ_emul=elf32visium
 			;;
 x86_64-*-rdos*)		targ_emul=elf64rdos
+			;;
+x86_64-*-toaru)		targ_emul=elf_x86_64
 			;;
 x86_64-*-haiku*)	targ_emul=elf_x86_64_haiku
 			targ_extra_emuls="elf_x86_64 elf_i386_haiku"

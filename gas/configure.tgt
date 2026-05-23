@@ -139,6 +139,7 @@ case ${generic_target} in
   aarch64*-*-nto*)			fmt=elf;;
   aarch64*-*-openbsd*)			fmt=elf;;
   aarch64*-*-pe* | aarch64*-*-mingw*)	fmt=coff em=pepaarch64 ;;
+  aarch64*-*-toaru*)	    fmt=elf;;
   alpha-*-*vms*)			fmt=evax ;;
   alpha-*-osf*)				fmt=ecoff ;;
   alpha-*-linux*ecoff*)			fmt=ecoff ;;
@@ -251,6 +252,7 @@ case ${generic_target} in
   i386-*-msdos*)			fmt=aout ;;
   i386-*-moss*)				fmt=elf ;;
   i386-*-pe)				fmt=coff em=pe ;;
+  i386-*-toaru*)			fmt=elf ;;
   i386-*-cygwin*)
    case ${cpu} in
      x86_64*)				fmt=coff em=pep ;;

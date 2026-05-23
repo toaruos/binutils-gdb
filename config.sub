@@ -2123,6 +2123,7 @@ case $os in
 	| sysv* \
 	| tenex* \
 	| tirtos* \
+	| toaru* \
 	| tock* \
 	| toppers* \
 	| tops10* \
